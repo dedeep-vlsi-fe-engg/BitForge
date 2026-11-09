@@ -19,13 +19,17 @@ Both tools are free to use, need no installation, and keep users' designs on the
 
 ## Website contents
 
-- **Chip-floorplan hero** — BitForge drawn as a die with a pad ring; the FPGAForge and VLSIForge blocks are wired to a BitForge core with animated routing, and each block opens its product.
+- **Chip-floorplan hero** — BitForge drawn as a die with a pad ring; the FPGAForge and VLSIForge blocks are wired to a BitForge core with animated routing, the chip tilts with the pointer, and each block opens its product.
+- **Motion** — flowing circuit traces in the background, sections that reveal on scroll and a self-drawing timeline. All animation turns off when the system’s reduced-motion setting is on.
 - **Products** — an introduction to FPGAForge and VLSIForge with their key features.
-- **ECE bench** — four interactive tools:
-  - **Logic gates:** toggle inputs A and B and see AND, OR, XOR, NAND, NOR and XNOR outputs, with the current truth-table row highlighted.
-  - **Number bases:** click the bits of a byte to see its decimal, hexadecimal, signed (two's complement), octal and ASCII values.
-  - **Ohm's law:** enter any two of voltage, current and resistance to calculate the third, plus power.
-  - **Resistor colour code:** choose four bands to read the resistance and tolerance.
+- **ECE bench** — five interactive tools:
+  - **Logic gates:** toggle inputs A and B and watch the signals light up into AND, OR, XOR, NAND, NOR and XNOR gates, with the current truth-table row highlighted.
+  - **Number converter:** type in any format — decimal, signed (two's complement), hexadecimal, binary, octal, ASCII or Gray code — or click the bits, and every other format updates instantly. Works at 8, 16 and 32 bits, with clear messages for invalid or out-of-range input.
+  - **Ohm's law:** enter any two of voltage, current and resistance to calculate the third, plus power. An animated circuit shows current flowing faster as current rises and the resistor glowing as power increases.
+  - **Oscilloscope:** sine, square, triangle and sawtooth waveforms with frequency and amplitude controls, a live animated trace, and period, peak-to-peak and RMS measurements.
+  - **Resistor colour code**, in two modes:
+    - *Colours → value:* choose the bands of a 4-, 5- or 6-band resistor to read its resistance, tolerance and temperature coefficient.
+    - *Value → colours:* enter a resistance (for example 220, 4.7k, 4k7, 1M or R47) to see every valid colour code, the number of possible codes, whether it is a standard E12, E24 or E96 value, and — when a value cannot be colour-coded — the reason and the closest values that can be marked.
 - **Milestones** — a timeline of the inventions behind modern electronics, from the transistor (1947) to the first FPGA (1985).
 - **About** — the BitForge mission and credits.
 
